@@ -45,11 +45,11 @@ class CashRegister
     if
       discount != 0
       self.total = (total * ((100 - discount)/100)).to_i
-
+      puts "After the discount, the total comes to $800."
     else
-
-    end
       puts "There is no discount to apply."
+    end
+      
     end
 
   def last_tansaction_price=(price)
