@@ -41,6 +41,17 @@ class CashRegister
     @items = list
   end
 
+  def apply_discount
+    if 
+      discount != 0
+      self.total = (total * ((100 - discount)/100)).to_i
+      
+    else
+
+    end
+      puts "There is no discount to apply."
+    end
+  
   def last_tansaction_price=(price)
     @last_tansaction_price = price
   end
