@@ -48,5 +48,5 @@ class CashRegister
   def last_tansaction_price
     @last_tansaction_price
   end
-  
+
 end
