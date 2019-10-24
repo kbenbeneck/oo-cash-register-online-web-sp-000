@@ -5,6 +5,7 @@ class CashRegister
     self.total = 0
     self.discount = discount
     self.items = []
+    self.last_tansaction_price = 0
   end
 
   def total=(value)
@@ -36,5 +37,16 @@ class CashRegister
     @items
   end
 
+  def items=(list)
+    @items = list
+  end
 
+  def last_tansaction_price=(price)
+    @last_tansaction_price = price
+  end
+
+  def last_tansaction_price
+    @last_tansaction_price
+  end
+  
 end
