@@ -25,5 +25,7 @@ class CashRegister
       "There is no discount to apply."
     end
   end
-
+  def void_last_transaction
+    self.total = self.total - self.last_tansaction_price
+  end
 end
