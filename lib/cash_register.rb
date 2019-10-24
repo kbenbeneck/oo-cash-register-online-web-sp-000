@@ -50,8 +50,6 @@ class CashRegister
       puts "There is no discount to apply."
     end
 
-    end
-
   def last_tansaction_price=(price)
     @last_tansaction_price = price
   end
