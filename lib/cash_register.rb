@@ -49,7 +49,7 @@ class CashRegister
     else
       puts "There is no discount to apply."
     end
-      
+
     end
 
   def last_tansaction_price=(price)
