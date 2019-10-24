@@ -45,7 +45,7 @@ class CashRegister
     if
       discount != 0
       self.total = (total * ((100 - discount)/100)).to_i
-      puts "After the discount, the total comes to $800."
+      puts "After the discount, the total comes to $#{self.total}."
     else
       puts "There is no discount to apply."
     end
